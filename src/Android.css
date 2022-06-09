@@ -1,0 +1,40 @@
+/* .Input_box{
+    
+    top: 90%;
+    background-color: rgb(209, 156, 90);
+    width: 60%;
+    margin-left: 170px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid ;
+ 
+} */
+.Right_input{
+    border: 1px solid;
+    position: fixed;
+    top: 90%;
+    background-color: rgb(209, 156, 90);
+    width: 60%;
+    margin-left: 170px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid ;
+}
+
+.Android_head{
+    display: flex;
+    justify-content: center;
+}
+.Left_input{
+    position: fixed;
+    top: 90%;
+    background-color: rgb(250, 255, 252);
+    margin-left: 11px;
+    width: 210px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.List_background{
+    background-color: rgb(204, 204, 207);
+    height: 100%;
+}

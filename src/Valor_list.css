@@ -1,0 +1,89 @@
+.Main_div{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(90, 74, 59, 0.938);
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+  }
+  .Center_div{
+    width: 45%;
+    height: 80vh;
+    background-color: rgb(236, 236, 236);
+    box-shadow: 5px 5px 25px -5px black;
+    border-radius: 15px;
+  }
+  h1{
+    color: aliceblue;
+    background: transparent;
+    background-color: rgb(32, 35, 36);
+    padding: 6px 0 2px 0;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 15px -5px black;
+  }
+  /* input{
+    text-align: center;
+    height: 30px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    width: 60%;
+    border-bottom:2px solid black ;
+    outline: none;
+  } */
+  button{
+    min-width: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: rgb(49, 34, 34);
+    color: aliceblue;
+    font-size: 40px;
+     border: none;
+     outline: none;
+     margin-left: 10px;
+     /* box-shadow: 5px 5px 15px -5px black; */
+  }
+  ol{
+    margin-top: 30px;
+  
+  }
+  ol li{
+    padding-left: 0px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    color:rgba(90, 74, 59, 0.938);
+    text-transform: capitalize;
+  }
+  .todo_style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+  }
+  .todo_style .fa-times{
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    border-radius: 50%;
+    margin-right : 10px ;
+    color: rgb(7, 7, 7);
+    background-color: rgb(255, 255, 255);
+  
+  }
+  .todo_style .fa-times:hover{
+    background-color: red;
+  }
+  
+  

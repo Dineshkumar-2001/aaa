@@ -1,23 +1,18 @@
 import logo from './logo.svg';
-import './App.css';
+
+import Main from './Main';
+import Store_code from './Store_code';
+import './App.css'
+import Android_store_1 from './Android_store_1';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+        {/* <Main/> */}
+        <Store_code/>
+        {/* <Android_store_1/> */}
+        
     </div>
   );
 }
